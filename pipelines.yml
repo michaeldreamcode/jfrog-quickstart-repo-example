@@ -5,7 +5,7 @@ resources:
       gitProvider: my_github
       path: michaeldreamcode/jfrog-pipelines-simple-example
       branches:
-        include: master
+        include: main
   - name: myBuildInfo
     type: BuildInfo
     configuration:
